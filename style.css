@@ -233,12 +233,22 @@ button{
     margin-bottom: 100px;
 }
 
+
+
+
+
+/* <!-- 4th page of AMD layout --> */
 .amd-portfolio{
     margin-top: var(--space-32);
     /* background-color: yellow; */
+    /* border: 5px solid red; */
+    background-image: url(./img/image8.jpg);
+    background-size: cover;
+    /* background-position: center; */
+
 }
 .amd-portfolio-div{
-    width: 90vw;
+    width: 89vw;
     height: 600px;
     margin: 0 auto;
     /* background-color: red; */
@@ -250,7 +260,7 @@ button{
     padding: 0 15px;
 }
 .amd-portfolio-box{
-    height: 500px;
+    height: 480px;
     width: 24%;
     background-color: #1b1b1b;
     box-shadow: 0px 0px 5px rgb(59, 59, 59);
@@ -267,7 +277,7 @@ button{
 }
 img{
     width: 100%;
-    height: 200px;
+    height: 180px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
