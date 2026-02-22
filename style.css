@@ -369,7 +369,7 @@ img{
 
     /* <!-- 6th page of AMD layout --> */
 .sec-news{
-    margin: var(--space-16) 0px;
+    margin-top: var(--space-16);
     /* height: 500px; */
     width: 100%;
     background-color: black;
@@ -416,18 +416,18 @@ img{
 }
 
 
-
+    /* <!-- 7th page of AMD layout --> */
 .sec-footer{
     height: 600px;
     width: 100%;
-    /* background-color: red; */
-    padding: 60px 100px;
+    padding: 50px 100px;
+    /* border: 1px solid red; */
 }
 .footer-div{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     background-color: black;
-    /* border: 2px solid rgb(161, 95, 95); */
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -436,20 +436,31 @@ img{
     /* background-color: #00bcd4; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .footer-div-bottom{
     /* background-color: #4c5152; */
     color: white;
     padding: 20px;
+    padding-top: -40px;
     /* width: 85%; */
     margin: auto;
+    /* border: 1px solid red; */
+    margin-bottom: 50px;
+
 }
 .copyright{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 35px;
     color: #888a8b;
+}
+.copyright p:nth-child(2){
+    font-size: small;
+}
+.copyright p:nth-child(1){
+    font-size: 0.9rem;
 }
 .foot-btn{
     background-color: #262727;
@@ -458,6 +469,7 @@ img{
     border-right: 2px solid rgb(113, 112, 112);
     border-radius: 3px;
     box-shadow: 0px 0px 5px rgb(59, 59, 59);
+    margin-left: 20px;
 }
 .footer-div-bottom table{
     border-collapse: separate;
