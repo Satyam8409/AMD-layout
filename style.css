@@ -438,6 +438,12 @@ img{
     justify-content: space-between;
     margin-bottom: 50px;
 }
+.footer-nav{
+    /* background-color: red; */
+    width: 31.5%;
+    display: flex;
+    justify-content: space-between;
+}
 .footer-div-bottom{
     /* background-color: #4c5152; */
     color: white;
