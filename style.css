@@ -269,7 +269,7 @@ button{
 .amd-portfolio-para{
     color:rgb(147, 143, 143);
     text-align: center;
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     margin-bottom: var(--space-6);
 }
 .port-h{
@@ -289,7 +289,7 @@ img{
     gap: 15px;
 }
 .box3 a{
-    color: #00bcd4;
+    color: #2899ff;
 }
 .box3{
     padding: 0 15px;
