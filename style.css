@@ -158,7 +158,7 @@ button{
 
 /*2nd page of AMD-layout  */
 .why-amd{
-    margin-bottom: var(--space-32);
+    margin-bottom: var(--space-24);
     padding-bottom: var(--space-32);
     background-color: var(--bg-dark);
     color: var(--text-main);
@@ -207,8 +207,15 @@ button{
 
 
 
+
+/*<!-- 3rd page of AMD layout --> */
 .trust-amd{
-    margin-top: -90px;
+    /* margin-top: -90px; */
+    /* border: 5px solid red; */
+    padding-bottom: 50px;
+    background-image: url(./img/image3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .trust-amd-box{
     width: 80vw;
@@ -216,7 +223,15 @@ button{
     height: 200px;
     margin: 0 auto;
 }
-
+.trust-amd-head{
+    color: var(--text-main);
+    /* background-color: red; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
 
 .amd-portfolio{
     margin-top: var(--space-32);
