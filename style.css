@@ -418,10 +418,11 @@ img{
 
     /* <!-- 7th page of AMD layout --> */
 .sec-footer{
-    height: 600px;
+    height: 570px;
     width: 100%;
     padding: 50px 100px;
-    /* border: 1px solid red; */
+    /* padding-bottom: 0px; */
+    border: 1px solid red;
 }
 .footer-div{
     /* height: 100%; */
