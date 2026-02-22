@@ -156,8 +156,8 @@ button{
 }
 
 
+/*2nd page of AMD-layout  */
 .why-amd{
-    /* margin-top: var(--space-12); */
     margin-bottom: var(--space-32);
     padding-bottom: var(--space-32);
     background-color: var(--bg-dark);
@@ -166,23 +166,33 @@ button{
 .why-head{
     margin-bottom: var(--space-12);
     color: var(--text-main);
+    /* background-color: red; */
 }
 .div-table{
-    /* background-color: aquamarine; */
-    width: 80vw;
+    width: 87vw;
     margin: 0 auto;
     /* display: flex;
     justify-content: space-between; */
+    /* background-color: red; */
 }
 
-.div-table head{
-    margin-bottom: 20px;
-}
-.div-table thead th{
+/* .div-table head{
+    margin-bottom: 120px;
+} */
+.div-table th{
     padding-bottom: 20px;
     text-align: left;
     font-size: var(--text-lg);
 }
+.div-table td{
+    padding-right: 40px;
+    text-align: left;
+    /* font-size: var(--text-lg); */
+}
+/* .div-table table{
+    border-collapse: separate;
+    border-spacing: 20px 0;
+} */
 .why-amd-btn{
     /* padding:20px; */
     min-width: 250px;
@@ -194,6 +204,7 @@ button{
     justify-content: center;
     margin-top: var(--space-24);
 }
+
 
 
 .trust-amd{
