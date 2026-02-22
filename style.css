@@ -365,19 +365,30 @@ img{
 }
 
 
+
+
+    /* <!-- 6th page of AMD layout --> */
 .sec-news{
     margin: var(--space-16) 0px;
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     background-color: black;
     /* border: 1px solid gray; */
+    /* border: 1px solid #ff0000; */
+    padding-bottom: 200px;
+    background-image: url(./img/image10.jpg);
+    background-size:contain;
+    background-position:bottom;
+    background-repeat: no-repeat;
 }
 .sec-news-h3{
     color: var(--text-main);
-    margin-left: 79px;
+    margin-left: 89px;
+    /* margin-bottom: 20px; */
+    font-size: 1.7rem;
 }
 .sec-news-div{
-    width: 90vw;
+    width: 88%;
     height: 400px;
     margin: 0 auto;
     /* background-color: red; */
